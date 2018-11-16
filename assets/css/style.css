@@ -66,6 +66,7 @@ main {
     border: 10px solid brown;
     width: auto;
     height: 500px;
+    background-color: #dddddd;
     
 }
 
@@ -73,6 +74,7 @@ section {
     border: 10px solid gold;
     padding: 20px;
     margin: 20px 300px;
+    background-color: #ffffff;
    
 
 }
