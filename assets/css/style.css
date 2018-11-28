@@ -50,8 +50,7 @@ a {
 }
 
 #left1, #left2 {
-    border-left: 2px solid #dddddd;
-    width: 1px;
+    border-left: 2px solid #dddddd ;
 }
 
 .main-content {
@@ -103,5 +102,3 @@ footer {
     color: rgb(228, 220, 220);
     font-size: 10px;
 }
-
-`
