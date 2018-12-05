@@ -1,0 +1,112 @@
+html, body, div, nav, ul, li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/concrete-texture.png");
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-bottom: 3px solid #ddd;
+
+}
+
+.centered {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    padding: 20px;
+    background-color: #4aaaaf;
+    color: #fff;
+    font-size: 2em;
+}
+
+.nav {
+    float: right;
+    padding: 20px 0 20px 20px;
+}
+
+
+
+ul, li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+li {
+    border-right: 1px solid #ddd;
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaaf;
+    display: inline-block;
+}
+
+.container-content {
+    margin-top: 30px;
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+hr {
+    background-color: #ddd;
+    height: 2px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.long-input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+
+
+.submit {
+    color: #fff;
+    width: 100px;
+    background-color: #4aaaaf;
+    border-radius: 5%;
+}
+
+
+footer {
+    background-color: #666;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-top: 8px solid #4aaaaf;
+    font-size: 9px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+}
+
+
